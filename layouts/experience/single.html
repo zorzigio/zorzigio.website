@@ -1,0 +1,47 @@
+{{- define "main" }}
+
+<article class="post-single">
+  <header class="post-header">
+    {{ partial "breadcrumbs.html" . }}
+    <h1 class="post-title exp-single-title">
+      {{ .Params.Role }}
+    </h1>
+    <div class="post-description exp-single-company">
+      {{ .Params.Company }} - {{ .Params.Jobtype }}
+    </div>
+    <div class="post-meta">
+      {{ .Params.Start | dateFormat "Jan 2006" }} - {{ .Params.End | dateFormat "Jan 2006" }} ({{ .Params.Duration }})
+    </div>
+  </header>
+  {{- $isHidden := .Params.cover.hidden | default site.Params.cover.hiddenInSingle | default site.Params.cover.hidden }}
+  {{- partial "cover.html" (dict "cxt" . "IsHome" false "isHidden" $isHidden) }}
+  {{- if (.Param "ShowToc") }}
+  {{- partial "toc.html" . }}
+  {{- end }}
+
+  {{- if .Content }}
+  <div class="post-content">
+    {{- if not (.Param "disableAnchoredHeadings") }}
+    {{- partial "anchored_headings.html" .Content -}}
+    {{- else }}{{ .Content }}{{ end }}
+  </div>
+  {{- end }}
+
+  <footer class="post-footer exp-post-footer">
+    {{- $tags := .Language.Params.Taxonomies.tag | default "tags" }}
+    <ul class="post-tags">
+      {{- range ($.GetTerms $tags) }}
+      <li><a href="{{ .Permalink }}">{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- if (.Param "ShowPostNavLinks") }}
+    {{- partial "exp_post_nav_links.html" . }}
+    {{- end }}
+  </footer>
+
+  {{/*  {{- if (.Param "comments") }}
+  {{- partial "comments.html" . }}
+  {{- end }}  */}}
+</article>
+
+{{- end }}{{/* end main */}}
