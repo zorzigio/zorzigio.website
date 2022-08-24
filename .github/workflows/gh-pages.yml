@@ -11,15 +11,11 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Check out master and get private submodules
-        uses: actions/checkout@master
+        uses: actions/checkout@v3
         with:
-          submodules: recursive
-          fetch-depth: 1
+          submodules: true
+          fetch-depth: 0
           token: ${{ secrets.PTOKEN }}
-      # - uses: actions/checkout@v2
-      #   with:
-      #     submodules: true  # Fetch Hugo themes (true OR recursive)
-      #     fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
