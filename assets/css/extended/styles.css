@@ -9,11 +9,13 @@
   --exp-title-color: hsl(199, 71%, 40%);
   --exp-company-color: hsl(187, 71%, 40%);
   --exp-function-color: hsl(49, 98%, 40%);
+  --primary-shadow: rgba(30, 30, 30, 0.5);
 }
 .dark {
   --exp-title-color: hsl(199, 71%, 60%);
   --exp-company-color: hsl(187, 71%, 60%);
   --exp-function-color: hsl(49, 98%, 60%);
+  --primary-shadow: rgba(218, 218, 219, 0.5);
 }
 
 #cardContainer {
@@ -27,7 +29,7 @@
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 300;
   line-height: 1.7;
-  margin: 16px 0px;
+  margin: 16px auto;
   position: relative;
   max-width: 600px;
   height: 12rem;
@@ -160,9 +162,9 @@
 }
 
 .exp-post-footer {
-    position: absolute;
-    bottom: 0;
-   width: 100%;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .exp-nav-title {
@@ -173,6 +175,15 @@
 }
 
 .profile_inner {
-    width: 100%;
-    max-width: 400px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.cv_div {
+  display: flex;
+}
+
+.cv_button {
+  margin: 16px auto;
+  text-shadow: 2px 2px 8px var(--secondary);
 }
