@@ -1,0 +1,104 @@
+{{- define "main" }}
+  {{- if (and site.Params.profileMode.enabled .IsHome) }}
+    {{- partial "index_profile.html" . }}
+  {{- else }}
+    {{/* if not profileMode */}}
+      {{- if not .IsHome | and .Title }}
+        <header class="page-header">
+          {{- partial "breadcrumbs.html" . }}
+          <h1>
+            Education
+          </h1>
+          {{- if .Description }}
+            <div class="post-description">
+              {{ .Description | markdownify }}
+            </div>
+          {{- end }}
+        </header>
+      {{- end }}
+
+      {{- if .Content }}
+        <div class="post-content">
+          {{- if not ( site.Params.education.disableAnchoredHeadings ) }}
+            {{- partial "anchored_headings.html" .Content -}}
+          {{- else }}
+            {{ .Content }}
+          {{ end }}
+        </div>
+      {{- end }}
+
+      {{- $pages := union .RegularPages .Sections }}
+
+      {{- if .IsHome }}
+        {{- $pages = where site.RegularPages "Type" "in" site.Params.mainSections }}
+      {{- end }}
+
+      {{- $paginator := .Paginate $pages }}
+
+      {{- if and .IsHome site.Params.homeInfoParams (eq $paginator.PageNumber 1) }}
+        {{- partial "home_info.html" . }}
+      {{- end }}
+
+      {{- $term := .Data.Term }}
+      {{- range $index, $page := $paginator.Pages }}
+
+        {{- $class := "post-entry" }}
+
+        {{- $user_preferred := or site.Params.disableSpecial1stPost site.Params.homeInfoParams }}
+        {{- if (and $.IsHome (eq $paginator.PageNumber 1) (eq $index 0) (not $user_preferred)) }}
+          {{- $class = "first-entry" }}
+        {{- else if $term }}
+          {{- $class = "post-entry tag-entry" }}
+        {{- end }}
+      {{- end }}
+
+    {{ $articles := where (where .Site.RegularPages "Section" "education") "Permalink" "!=" .Page.Permalink }}
+    {{ $articles := sort $articles ".Params.End" "desc" }}
+    {{ range  $articles }}
+
+        <div class="card">
+          <div class="card-back" icon-font="">
+            <div class="code">
+              <span class="function">Degree: </span>
+              <span>{{ .Params.Degree }}</span>
+              <br />
+              <span class="function">Field: </span>
+              <span>{{ .Params.Field }}</span>
+              <br />
+              <span class="function">Institution: </span>
+              <span>{{ .Params.Institution }}</span>
+              <br />
+              <span class="function">Period: </span> <span >{{ .Params.Start | dateFormat "2006" }} - </span >
+              {{- if .Params.Ongoing }}
+                <span >Present </span >
+              {{- else }}
+                <span >{{ .Params.End | dateFormat "2006" }}</span >
+              {{- end }}
+              <br />
+            </div>
+          </div>
+          <div class="card-front" icon-font="">
+            <div class="code">
+              <div class="method">
+                {{- .Params.Degree }}
+              </div>
+              <div class="boolean">
+                {{ .Params.Institution }}
+              </div>
+              <br />
+              {{- if .Params.Ongoing }}
+                <span >Present </span >
+              {{- else }}
+                <span >{{ .Params.End | dateFormat "2006" }}</span >
+              {{- end }}
+
+            </div>
+          </div>
+        </div>
+      {{- end }}
+
+    {{- end }}
+
+  {{/* end profileMode */}}
+
+{{- end }}{{- /* end main */ -}}

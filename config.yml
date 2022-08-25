@@ -104,10 +104,14 @@ params:
 
 menu:
   main:
-    - identifier: experience
-      name: experience
-      url: /experience/
+    - identifier: education
+      name: Education
+      url: /education/
       weight: 10
+    - identifier: experience
+      name: Experience
+      url: /experience/
+      weight: 20
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
