@@ -4,14 +4,44 @@
     <title>GZ</title>
     <link>https://zorzi.dev/</link>
     <description>Recent content on GZ</description>
-    <generator>Hugo -- gohugo.io</generator><atom:link href="https://zorzi.dev/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 25 Aug 2022 12:19:59 +0400</lastBuildDate><atom:link href="https://zorzi.dev/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Cerpelloni</title>
-      <link>https://zorzi.dev/experience/cerpelloni/</link>
+      <title>About</title>
+      <link>https://zorzi.dev/about/</link>
+      <pubDate>Thu, 25 Aug 2022 12:49:21 +0400</pubDate>
+      
+      <guid>https://zorzi.dev/about/</guid>
+      <description>About this site Do you want to see how I built this site? Check out this post</description>
+    </item>
+    
+    <item>
+      <title>About this site</title>
+      <link>https://zorzi.dev/posts/about_this_site/</link>
+      <pubDate>Thu, 25 Aug 2022 12:19:59 +0400</pubDate>
+      
+      <guid>https://zorzi.dev/posts/about_this_site/</guid>
+      <description>This site is built usingo Hugo, a very fast static site generator built in golang that translates markdown files into websites.
+The base theme I am using is PaperMod</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://zorzi.dev/hello/</link>
+      <pubDate>Thu, 25 Aug 2022 10:49:49 +0400</pubDate>
+      
+      <guid>https://zorzi.dev/hello/</guid>
+      <description>Hi! Nice to see you here I am Giorgio Zorzi, a tech entusiast. I work as a software developer / tech lead located in UAE.
+You are most welcome to say hello -&amp;gt; giorgio@zorzi.dev</description>
+    </item>
+    
+    <item>
+      <title>Bachelor</title>
+      <link>https://zorzi.dev/education/bachelor/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zorzi.dev/experience/cerpelloni/</guid>
-      <description> Responsible for the installation of various electrical systems Worked on multiple construction sites following Health and Safety regulations, ensuring that the electrical systems complied with the Italian legislation. </description>
+      <guid>https://zorzi.dev/education/bachelor/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -43,6 +73,15 @@ Contributed to the study of the separation of impurities in melted silicon using
     </item>
     
     <item>
+      <title>Master</title>
+      <link>https://zorzi.dev/education/master/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zorzi.dev/education/master/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Onyx</title>
       <link>https://zorzi.dev/experience/onyx/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -71,12 +110,12 @@ Awarded EPSRC grant for the duration of the project. Identified new and innovati
     </item>
     
     <item>
-      <title>Planex</title>
-      <link>https://zorzi.dev/experience/planex/</link>
+      <title>PhD</title>
+      <link>https://zorzi.dev/education/phd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://zorzi.dev/experience/planex/</guid>
-      <description> Collaborated with various engineers during the planning of electric systems Worked as part of a team to ensure the project was in line with the customer’s specifications and delivered on time </description>
+      <guid>https://zorzi.dev/education/phd/</guid>
+      <description>During this period, I have also undertaken a project on wind turbine wakes where I have used MATLAB and MS Access to mine SCADA data in order to asses the wake deficit of an existing wind farm. In the following stage I conducted a CFD study of the wind farm using ANSYS WindModeller in order to compare the results.</description>
     </item>
     
     <item>

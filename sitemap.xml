@@ -2,19 +2,36 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zorzi.dev/about/</loc>
+    <lastmod>2022-08-25T12:49:21+04:00</lastmod>
+  </url><url>
+    <loc>https://zorzi.dev/posts/about_this_site/</loc>
+    <lastmod>2022-08-25T12:19:59+04:00</lastmod>
+  </url><url>
+    <loc>https://zorzi.dev/</loc>
+    <lastmod>2022-08-25T12:19:59+04:00</lastmod>
+  </url><url>
+    <loc>https://zorzi.dev/posts/</loc>
+    <lastmod>2022-08-25T12:19:59+04:00</lastmod>
+  </url><url>
+    <loc>https://zorzi.dev/hello/</loc>
+    <lastmod>2022-08-25T10:49:49+04:00</lastmod>
+  </url><url>
+    <loc>https://zorzi.dev/education/bachelor/</loc>
+  </url><url>
     <loc>https://zorzi.dev/categories/</loc>
   </url><url>
-    <loc>https://zorzi.dev/experience/cerpelloni/</loc>
-  </url><url>
     <loc>https://zorzi.dev/experience/cybrik/</loc>
+  </url><url>
+    <loc>https://zorzi.dev/education/</loc>
   </url><url>
     <loc>https://zorzi.dev/experience/</loc>
   </url><url>
     <loc>https://zorzi.dev/experience/greenwich/</loc>
   </url><url>
-    <loc>https://zorzi.dev/</loc>
-  </url><url>
     <loc>https://zorzi.dev/experience/livanova/</loc>
+  </url><url>
+    <loc>https://zorzi.dev/education/master/</loc>
   </url><url>
     <loc>https://zorzi.dev/experience/onyx/</loc>
   </url><url>
@@ -22,7 +39,7 @@
   </url><url>
     <loc>https://zorzi.dev/experience/phd/</loc>
   </url><url>
-    <loc>https://zorzi.dev/experience/planex/</loc>
+    <loc>https://zorzi.dev/education/phd/</loc>
   </url><url>
     <loc>https://zorzi.dev/experience/salesiani/</loc>
   </url><url>

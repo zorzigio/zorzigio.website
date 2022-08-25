@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Education on GZ</title>
+    <link>https://zorzi.dev/education/</link>
+    <description>Recent content in Education on GZ</description>
+    <generator>Hugo -- gohugo.io</generator><atom:link href="https://zorzi.dev/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bachelor</title>
+      <link>https://zorzi.dev/education/bachelor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zorzi.dev/education/bachelor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Master</title>
+      <link>https://zorzi.dev/education/master/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zorzi.dev/education/master/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PhD</title>
+      <link>https://zorzi.dev/education/phd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://zorzi.dev/education/phd/</guid>
+      <description>During this period, I have also undertaken a project on wind turbine wakes where I have used MATLAB and MS Access to mine SCADA data in order to asses the wake deficit of an existing wind farm. In the following stage I conducted a CFD study of the wind farm using ANSYS WindModeller in order to compare the results.</description>
+    </item>
+    
+  </channel>
+</rss>
