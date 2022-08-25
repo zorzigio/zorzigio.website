@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 draft: true
 role: Role
-jobtype: full-time # full-time, part-time, self employed, contract, internship
+jobtype: Full-time # Full-time, part-time, self employed, contract, internship
 company: Company
 location: Location
 start: "2021-01-01"

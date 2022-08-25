@@ -34,7 +34,7 @@ params:
   disableThemeToggle: true
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
@@ -104,14 +104,22 @@ params:
 
 menu:
   main:
+    - identifier: hello
+      name: Hello
+      url: /hello/
+      weight: 10
     - identifier: education
       name: Education
       url: /education/
-      weight: 10
+      weight: 20
     - identifier: experience
       name: Experience
       url: /experience/
-      weight: 20
+      weight: 30
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 40
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
