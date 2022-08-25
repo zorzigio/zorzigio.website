@@ -59,7 +59,6 @@ params:
     enabled: true # needs to be explicitly set
     title: Giorgio Zorzi
     # subtitle: "Hi there!"
-    imageUrl: "qrcode.svg"
     imageWidth: 360
     imageHeight: 360
     imageTitle: QR Code

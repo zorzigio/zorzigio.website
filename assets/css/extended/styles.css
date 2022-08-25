@@ -172,6 +172,7 @@
   -webkit-line-clamp: 1;
 }
 
-.profile img {
-    border-radius: 10%
+.profile_inner {
+    width: 100%;
+    max-width: 400px;
 }
