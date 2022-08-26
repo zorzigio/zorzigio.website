@@ -1,5 +1,32 @@
 {{- define "main" }}
 
+
+    {{/*  Calculate End Date  */}}
+    {{- $end := now.UTC.Format "2006-01-02" }}
+    {{- if ne .Params.Ongoing true }}
+        {{- $end = .Params.End }}
+    {{- end }}
+    {{/*  Calculate Number of Years  */}}
+    {{- $years := sub (int ( $end | dateFormat "2006")) (int (.Params.Start | dateFormat "2006")) }}
+    {{/*  Months  */}}
+    {{- $months := sub (int ( $end | dateFormat "1")) (int (.Params.Start | dateFormat "1")) }}
+    {{- if lt $months 0 }}
+        {{- $months = add 13 $months }}
+        {{- $years = sub $years 1 }}
+    {{- else }}
+        {{- $months = add $months 1 }}
+    {{- end }}
+    {{/*  Duration String  */}}
+    {{- $duration := "" }}
+    {{- if and (gt $years 0) (gt $months 0) }}
+        {{- $duration = printf "%d yrs %d mos" $years $months }}
+    {{- else if gt $years 0 }}
+        {{- $duration = printf "%d yrs" $years }}
+    {{- else }}
+        {{- $duration = printf "%d mos" $months }}
+    {{- end}}
+
+
 <article class="post-single">
   <header class="post-header">
     {{ partial "breadcrumbs.html" . }}
@@ -10,7 +37,11 @@
       {{ .Params.Company }} - {{ .Params.Jobtype }}
     </div>
     <div class="post-meta">
-      {{ .Params.Start | dateFormat "Jan 2006" }} - {{ .Params.End | dateFormat "Jan 2006" }} ({{ .Params.Duration }})
+        {{- if ne .Params.Ongoing true }}
+            {{ .Params.Start | dateFormat "Jan 2006" }} - {{ $end | dateFormat "Jan 2006" }} ({{ $duration }})
+        {{- else }}
+            {{ .Params.Start | dateFormat "Jan 2006" }} - Present ({{ $duration }})
+        {{- end }}
     </div>
   </header>
   {{- $isHidden := .Params.cover.hidden | default site.Params.cover.hiddenInSingle | default site.Params.cover.hidden }}
