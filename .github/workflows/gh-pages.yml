@@ -2,7 +2,7 @@ name: github pages
 
 on:
   schedule:
-    - cron: '00 12 * * *'
+    - cron: '10 08 * * *'
   push:
     branches:
       - main  # Set a branch to deploy
