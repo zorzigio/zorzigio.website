@@ -12,8 +12,9 @@
       <pubDate>Thu, 25 Aug 2022 12:19:59 +0400</pubDate>
       
       <guid>https://zorzi.dev/posts/about_this_site/</guid>
-      <description>This site is built usingo Hugo, a very fast static site generator built in golang that translates markdown files into websites.
-The base theme I am using is PaperMod</description>
+      <description>This site is built using Hugo, a very fast static site generator built in golang that translates markdown files into websites.
+The base theme I am using is PaperMod but I heavily modified it to fit my needs.
+You can take a look at the source code on GitHub</description>
     </item>
     
   </channel>
