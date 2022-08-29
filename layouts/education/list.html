@@ -83,7 +83,10 @@
 
 
         <div class="card">
-          <div class="card-back" icon-font="">
+          <div class="card-back">
+            <div class="card-back-year">
+                {{- $end | dateFormat "2006"}}
+            </div>
             <div class="code">
               <span class="function">Degree: </span>
               <span>{{ .Params.Degree }}</span>
@@ -103,7 +106,10 @@
               <br />
             </div>
           </div>
-          <div class="card-front" icon-font="">
+          <div class="card-front">
+            <div class="card-front-year">
+                {{- $end | dateFormat "2006"}}
+            </div>
             <div class="code">
               <div class="method">
                 {{- .Params.Degree }}
@@ -111,12 +117,12 @@
               <div class="boolean">
                 {{ .Params.Institution }}
               </div>
-              <br />
+              {{/*  <br />
               {{- if .Params.Ongoing }}
                 <span >Present </span >
               {{- else }}
                 <span >{{ $end | dateFormat "2006" }}</span >
-              {{- end }}
+              {{- end }}  */}}
 
             </div>
           </div>

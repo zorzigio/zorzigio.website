@@ -40,6 +40,26 @@
   text-align: center;
 }
 
+.card-front-year {
+  font-size: 14px;
+  position: absolute;
+  transform: rotate(45deg);
+  top: 8px;
+  right: 5px;
+  z-index: 2;
+  color: var(--secondary);
+}
+
+.card-back-year {
+  font-size: 14px;
+  position: absolute;
+  transform: rotate(-45deg);
+  bottom: 8px;
+  right: 5px;
+  z-index: 2;
+  color: var(--secondary);
+}
+
 .card div.code {
   background: transparent;
   font-family: "Lucida Console", Monaco, monospace;
