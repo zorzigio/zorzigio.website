@@ -142,6 +142,9 @@
               </div>
               <div class="boolean">
                 {{ .Params.Company }}
+                {{- if .Params.Jobtype }}
+                     -  {{ .Params.Jobtype }}
+                {{- end }}
               </div>
               <span>( {{ $duration }} )</span>
 

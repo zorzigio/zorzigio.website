@@ -34,7 +34,10 @@
       {{ .Params.Role }}
     </h1>
     <div class="post-description exp-single-company">
-      {{ .Params.Company }} - {{ .Params.Jobtype }}
+        {{ .Params.Company }}
+        {{- if .Params.Jobtype }}
+                -  {{ .Params.Jobtype }}
+        {{- end }}
     </div>
     <div class="post-meta">
         {{- if ne .Params.Ongoing true }}
