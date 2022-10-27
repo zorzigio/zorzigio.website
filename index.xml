@@ -51,7 +51,7 @@ You are most welcome to say hello -&amp;gt; giorgio@zorzi.dev</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zorzi.dev/experience/cybrik/</guid>
-      <description> Created product MVP with a React.js frontend, a Python backend and data ingestion using Apache Airflow Created Kubernetes infrastructure in Azure Built pipelines in Github to support Continuous Integration and Continuous Delivery Interact with Product Stakeholders to capture and implement new features and modify existing ones Strong debugging, monitoring, and troubleshooting skills Led development team of 3 (frontend and backend developer and data scientist) defining requirements and timelines Supported the company through the Techstars Indianapolis accelerator program </description>
+      <description>Led technical strategic planning, including roadmap development and end-to-end sprint management. Solely led the development and design of end-to-end, high quality software, complex technical prototypes and delivered the MVP for Cybrik AI, a cloud-based (Azure) enterprise platform with a React.js front end, a Python back end and data ingestion using Apache Airflow. Designed and implemented the document search functionalities using Machine Learning and Natural Language Processing (NLP) techniques reducing the time for our customers to find the relevant information.</description>
     </item>
     
     <item>
@@ -70,7 +70,7 @@ Contributed to the study of the separation of impurities in melted silicon using
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zorzi.dev/experience/livanova/</guid>
-      <description> Managed the project of Greenhouse Gas (GHG) Inventory, reporting directly to the VP of Operations and Manufacturing Reviewed and conducted a health-check of previous GHG reports, followed by a gap analysis Collected data from the company’s worldwide operations in 9 manufacturing plants with respect to the mandatory scopes Drafted the GHG report which was included in the UK Annual Report as well as a presentation for the Board of Directors, highlighting results and making recommendations for future GHG Inventories </description>
+      <description>Consulted and project-managed the Greenhouse Gas (GHG) reporting cycle for three consecutive years for LivaNova Plc, a Nasdaq-listed medical device manufacturing company, with 9 production sites across various countries. Identified opportunities for improvement in GHG reporting following a gap analysis, review and health-check of previous reports. Prepared and presented findings to the LivaNova Board of Directors highlighting opportunities for improvement and optimization. Worked with external auditors and senior management to ensure timely delivery of an accurate and comprehensive GHG report to the LivaNova Board of Directors for the approval prior to submission to the UK Regulator and disclosure in the Annual Report to shareholders.</description>
     </item>
     
     <item>
@@ -88,7 +88,7 @@ Contributed to the study of the separation of impurities in melted silicon using
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zorzi.dev/experience/onyx/</guid>
-      <description> Applied data mining techniques and statistical analysis to extract valuable information from wind turbines Analysed complex dataset using Natural Language Processing Applied Machine Learning techniques, transforming raw data into valuable insights Created a Graphical User Interface for data visualisation which will help the final user analyse the data, achieving a time saving of up to 90% Strengthened proficiency in Python and ability to write standardised code </description>
+      <description>Selected to join ONYX Insights on a fixed-term project to apply data mining techniques and statistical analysis to extract data from wind turbines. Analysed complex datasets using Natural Language Processing techniques. Applied Machine Learning techniques, transforming raw data into valuable insights. Created Graphical User Interface for data visualisation, creating a time savings for the final users of up to 90%. Strengthened proficiency in Python and ability to write standardised code.</description>
     </item>
     
     <item>
@@ -97,7 +97,7 @@ Contributed to the study of the separation of impurities in melted silicon using
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zorzi.dev/experience/ore_catapult/</guid>
-      <description> Developed an algorithm using MATLAB Simulink for the optimisation of a Battery Storage System The algorithm was designed to maximise the Internal Rate of Return, used for capital budgeting and estimation of the profitability of potential investments Achieved commercial awareness and strengthened my technical knowledge in algorithm development </description>
+      <description> Developed algorithm using MATLAB Simulink used for capital budgeting and estimation of the profitability of potential investments that optimises a Battery Storage System and maximises the Internal Rate of Return. Developed commercial awareness and strengthened technical knowledge of algorithm development. Offered a full-time position as a Research Engineer. </description>
     </item>
     
     <item>
@@ -107,7 +107,7 @@ Contributed to the study of the separation of impurities in melted silicon using
       
       <guid>https://zorzi.dev/experience/phd/</guid>
       <description>“Improved Yield from Wind Turbines through online anomaly detection and compensation”
-Awarded EPSRC grant for the duration of the project. Identified new and innovative ways of extracting more information from wind turbines in order to maximise the energy production Concluded a research that proposes new ways of maximising energy production whilst reducing costs Achieved and developed excellent project management and time management skills Acquired excellent research and technical knowledge, as well as commercial awareness in the field of wind and renewable energy </description>
+Identified new and innovative ways of extracting data from wind turbines to maximise energy production. Developed research proposing new ways of maximising energy production whilst reducing costs. Advanced project management and time management skills. Furthered research and technical knowledge as well as commercial awareness in the field of wind and renewable energy. </description>
     </item>
     
     <item>
@@ -116,17 +116,7 @@ Awarded EPSRC grant for the duration of the project. Identified new and innovati
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zorzi.dev/education/phd/</guid>
-      <description>During this period, I have also undertaken a project on wind turbine wakes where I have used MATLAB and MS Access to mine SCADA data in order to asses the wake deficit of an existing wind farm. In the following stage I conducted a CFD study of the wind farm using ANSYS WindModeller in order to compare the results.</description>
-    </item>
-    
-    <item>
-      <title>Salesiani</title>
-      <link>https://zorzi.dev/experience/salesiani/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://zorzi.dev/experience/salesiani/</guid>
-      <description>High School Teacher of Electrotechnics, Systems and Electrical Installations.
-Designed the course and course materials for the above technical subjects in 4 different classes of high-school students Managed and led the lessons, graded exams and assignments Ensured that the students received excellent academic knowledge, in line with the national curriculum and at the highest standard </description>
+      <description>Awarded an annual £14,000 grant for four consecutive years of PhD studies.</description>
     </item>
     
     
@@ -136,7 +126,7 @@ Designed the course and course materials for the above technical subjects in 4 d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zorzi.dev/experience/sse/</guid>
-      <description> Developed a MATLAB algorithm designed to characterise the Wind Turbine Power Curve in an innovative way using SCADA data, which can also be used for SCADA data cleaning, substantially reducing the time spent on the task Consolidated my technical knowledge of algorithm development and strengthened my project management skills </description>
+      <description> Designed MATLAB algorithm to characterise the Wind Turbine Power Curves in an innovative way using SCADA data, substantially reducing the time required for data cleaning and achieving improved efficiency. Consolidated technical knowledge of algorithm development and strengthened project management skills </description>
     </item>
     
     <item>
@@ -145,7 +135,7 @@ Designed the course and course materials for the above technical subjects in 4 d
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://zorzi.dev/experience/ta/</guid>
-      <description> Selected as teaching assistant for wind, solar and hydro energy for the graduate program Assisted the lecturer in the delivery of the aforementioned subjects Mentored undergraduate students </description>
+      <description> Served as Teaching Assistant for the Graduate Programme in Wind, Solar and Hydro Energy. Assisted Lecturers in the delivery of the course; held tutorials and prepared teaching materials. Mentored undergraduate students. </description>
     </item>
     
     <item>
