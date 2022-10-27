@@ -19,6 +19,17 @@ jobs:
           fetch-depth: 0
           token: ${{ secrets.PTOKEN }}
 
+      - name: Compile LaTeX document
+        uses: xu-cheng/latex-action@v2
+        with:
+          root_file: resume/main.tex
+
+      - name: Copy resume to static folder
+        run: |
+          ls -la .
+          ls -la resume
+          mv "resume/main.pdf" "static/Giorgio Zorzi - Resume.pdf"
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
