@@ -85,10 +85,8 @@
         {{/*  Months  */}}
         {{- $months := sub (int ( $end | dateFormat "1")) (int (.Params.Start | dateFormat "1")) }}
         {{- if lt $months 0 }}
-            {{- $months = add 13 $months }}
+            {{- $months = add 12 $months }}
             {{- $years = sub $years 1 }}
-        {{- else }}
-            {{- $months = add $months 1 }}
         {{- end }}
         {{/*  Duration String  */}}
         {{- $duration := "" }}
