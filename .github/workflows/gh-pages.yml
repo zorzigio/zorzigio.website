@@ -26,10 +26,18 @@ jobs:
           root_file: main.tex
 
       - name: Copy resume to static folder
-        run: |
-          ls -la .
-          ls -la resume
-          mv "resume/main.pdf" "static/Giorgio Zorzi - Resume.pdf"
+        run: mv "resume/main.pdf" "static/Giorgio Zorzi - Resume.pdf"
+
+      - name: Compile LaTeX document with secret
+        uses: xu-cheng/latex-action@v2
+        with:
+          working_directory: resume
+          root_file: main.tex
+        env:
+          PHONE_UAE: {{ secrets.PHONE_UAE }}
+
+      - name: Copy resume to static folder
+        run: mv "resume/main.pdf" "static/Giorgio Zorzi Resume.pdf"
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
