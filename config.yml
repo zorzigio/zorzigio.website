@@ -115,10 +115,14 @@ menu:
       name: Experience
       url: /experience/
       weight: 30
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 40
     - identifier: about
       name: About
       url: /about/
-      weight: 40
+      weight: 50
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
