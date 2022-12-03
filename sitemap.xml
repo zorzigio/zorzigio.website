@@ -2,16 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://zorzi.dev/</loc>
+    <lastmod>2022-12-03T14:14:55+04:00</lastmod>
+  </url><url>
+    <loc>https://zorzi.dev/tags/jane-street/</loc>
+    <lastmod>2022-12-03T14:14:55+04:00</lastmod>
+  </url><url>
+    <loc>https://zorzi.dev/posts/jane_street/puzzles/</loc>
+    <lastmod>2022-12-03T14:14:55+04:00</lastmod>
+  </url><url>
+    <loc>https://zorzi.dev/posts/</loc>
+    <lastmod>2022-12-03T14:14:55+04:00</lastmod>
+  </url><url>
+    <loc>https://zorzi.dev/tags/</loc>
+    <lastmod>2022-12-03T14:14:55+04:00</lastmod>
+  </url><url>
+    <loc>https://zorzi.dev/posts/jane_street/jane_2022_11/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://zorzi.dev/tags/puzzle/</loc>
+    <lastmod>2022-12-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://zorzi.dev/about/</loc>
     <lastmod>2022-08-25T12:49:21+04:00</lastmod>
   </url><url>
     <loc>https://zorzi.dev/posts/about_this_site/</loc>
-    <lastmod>2022-08-25T12:19:59+04:00</lastmod>
-  </url><url>
-    <loc>https://zorzi.dev/</loc>
-    <lastmod>2022-08-25T12:19:59+04:00</lastmod>
-  </url><url>
-    <loc>https://zorzi.dev/posts/</loc>
     <lastmod>2022-08-25T12:19:59+04:00</lastmod>
   </url><url>
     <loc>https://zorzi.dev/hello/</loc>
@@ -46,8 +61,6 @@
     <loc>https://zorzi.dev/experience/sse/</loc>
   </url><url>
     <loc>https://zorzi.dev/experience/ta/</loc>
-  </url><url>
-    <loc>https://zorzi.dev/tags/</loc>
   </url><url>
     <loc>https://zorzi.dev/experience/techstars/</loc>
   </url>

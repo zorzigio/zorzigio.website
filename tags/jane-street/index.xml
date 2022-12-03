@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on GZ</title>
-    <link>https://zorzi.dev/posts/</link>
-    <description>Recent content in Posts on GZ</description>
+    <title>jane street on GZ</title>
+    <link>https://zorzi.dev/tags/jane-street/</link>
+    <description>Recent content in jane street on GZ</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 03 Dec 2022 14:14:55 +0400</lastBuildDate><atom:link href="https://zorzi.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Dec 2022 14:14:55 +0400</lastBuildDate><atom:link href="https://zorzi.dev/tags/jane-street/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Jane Street Puzzles</title>
       <link>https://zorzi.dev/posts/jane_street/puzzles/</link>
@@ -26,17 +26,6 @@ I also publish the code on GitHub (once the solution is out).</description>
       <description>Check out the original puzzle on the Jane Street website Link
 The Puzzle The scope of this puzzle is to find the minimum distance between two pentagons arranged in a polyform.
 You have seventeen identical unit regular pentagonal tiles on a tabletop. You arrange them all into a single polyform, so each pentagon placed after the first shares a side with an already-placed pentagon, but no two pentagons overlap other than along their boundaries.</description>
-    </item>
-    
-    <item>
-      <title>About this site</title>
-      <link>https://zorzi.dev/posts/about_this_site/</link>
-      <pubDate>Thu, 25 Aug 2022 12:19:59 +0400</pubDate>
-      
-      <guid>https://zorzi.dev/posts/about_this_site/</guid>
-      <description>This site is built using Hugo, a very fast static site generator built in golang that translates markdown files into websites.
-The base theme I am using is PaperMod but I heavily modified it to fit my needs.
-You can take a look at the source code on GitHub</description>
     </item>
     
   </channel>

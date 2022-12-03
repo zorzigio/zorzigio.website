@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>puzzle on GZ</title>
+    <link>https://zorzi.dev/tags/puzzle/</link>
+    <description>Recent content in puzzle on GZ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zorzi.dev/tags/puzzle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Pent-up Frustration 2</title>
+      <link>https://zorzi.dev/posts/jane_street/jane_2022_11/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zorzi.dev/posts/jane_street/jane_2022_11/</guid>
+      <description>Check out the original puzzle on the Jane Street website Link
+The Puzzle The scope of this puzzle is to find the minimum distance between two pentagons arranged in a polyform.
+You have seventeen identical unit regular pentagonal tiles on a tabletop. You arrange them all into a single polyform, so each pentagon placed after the first shares a side with an already-placed pentagon, but no two pentagons overlap other than along their boundaries.</description>
+    </item>
+    
+  </channel>
+</rss>

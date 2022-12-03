@@ -5,14 +5,38 @@
     <link>https://zorzi.dev/</link>
     <description>Recent content on GZ</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 25 Aug 2022 12:19:59 +0400</lastBuildDate><atom:link href="https://zorzi.dev/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 03 Dec 2022 14:14:55 +0400</lastBuildDate><atom:link href="https://zorzi.dev/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jane Street Puzzles</title>
+      <link>https://zorzi.dev/posts/jane_street/puzzles/</link>
+      <pubDate>Sat, 03 Dec 2022 14:14:55 +0400</pubDate>
+      
+      <guid>https://zorzi.dev/posts/jane_street/puzzles/</guid>
+      <description>I recently discovered the website Jane Street. They are a quantitative trading firm that hires people with a strong mathematical background. They also publish monthly challenges in the form of puzzles. If you solve the puzzle, you can submit your solution and if correct, they will publish your name on the puzzle&amp;rsquo;s page.
+The first one I tackled was Pent-up Frustration 2.
+I also publish the code on GitHub (once the solution is out).</description>
+    </item>
+    
+    <item>
+      <title>Pent-up Frustration 2</title>
+      <link>https://zorzi.dev/posts/jane_street/jane_2022_11/</link>
+      <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://zorzi.dev/posts/jane_street/jane_2022_11/</guid>
+      <description>Check out the original puzzle on the Jane Street website Link
+The Puzzle The scope of this puzzle is to find the minimum distance between two pentagons arranged in a polyform.
+You have seventeen identical unit regular pentagonal tiles on a tabletop. You arrange them all into a single polyform, so each pentagon placed after the first shares a side with an already-placed pentagon, but no two pentagons overlap other than along their boundaries.</description>
+    </item>
+    
     <item>
       <title>About</title>
       <link>https://zorzi.dev/about/</link>
       <pubDate>Thu, 25 Aug 2022 12:49:21 +0400</pubDate>
       
       <guid>https://zorzi.dev/about/</guid>
-      <description>About this site Do you want to see how I built this site? Check out this post</description>
+      <description>Puzzles Do you like puzzles? I do!
+You can find some puzzles here
+About this site Do you want to see how I built this site? Check out this post</description>
     </item>
     
     <item>
