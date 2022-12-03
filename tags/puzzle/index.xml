@@ -12,7 +12,7 @@
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://zorzi.dev/posts/jane_street/jane_2022_11/</guid>
-      <description>Check out the original puzzle on the Jane Street website Link
+      <description>Introduction This is the solution of the November&amp;rsquo;s Jane Street puzzle. It involves pentagons, patience and a lot of computation. Check out the original post on the Jane Street website.
 The Puzzle The scope of this puzzle is to find the minimum distance between two pentagons arranged in a polyform.
 You have seventeen identical unit regular pentagonal tiles on a tabletop. You arrange them all into a single polyform, so each pentagon placed after the first shares a side with an already-placed pentagon, but no two pentagons overlap other than along their boundaries.</description>
     </item>
