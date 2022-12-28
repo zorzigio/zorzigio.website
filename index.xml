@@ -46,8 +46,9 @@ About this site Do you want to see how I built this site? Check out this post</d
       
       <guid>https://zorzi.dev/posts/about_this_site/</guid>
       <description>This site is built using Hugo, a very fast static site generator built in golang that translates markdown files into websites.
-The base theme I am using is PaperMod but I heavily modified it to fit my needs.
-You can take a look at the source code on GitHub</description>
+Theme The base theme I am using is PaperMod but I heavily modified it to fit my needs.
+Link Checker To make sure all the links are working, I use hydra. This runs as a Github Action and scrapes the website for broken links.
+Source Code You can take a look at the source code on GitHub</description>
     </item>
     
     <item>
