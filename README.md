@@ -22,3 +22,11 @@ hugo serve
 ```
 
 and then reach the website at [localhost:1313](http://localhost:1313)
+
+## Check links
+
+This uses [hydra](https://github.com/victoriadrake/hydra-link-checker) to check for broken links.
+
+```bash
+python hydra.py http://localhost:1313
+```
