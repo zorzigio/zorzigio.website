@@ -34,7 +34,7 @@ jobs:
           working_directory: resume
           root_file: main.tex
         env:
-          PHONE_UAE: ${{ secrets.PHONE_UAE }}
+          PHONE: ${{ secrets.PHONE }}
 
       - name: Copy resume to static folder
         run: mv "resume/main.pdf" "static/Giorgio Zorzi Resume.pdf"
