@@ -5,7 +5,18 @@
     <link>https://zorzi.dev/posts/</link>
     <description>Recent content in Posts on zorzi.dev</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://zorzi.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zorzi.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Die Agony</title>
+      <link>https://zorzi.dev/posts/jane_street/jane_2022_12/</link>
+      <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://zorzi.dev/posts/jane_street/jane_2022_12/</guid>
+      <description>Introduction This is the solution for the December 2022&amp;rsquo;s Jane Street puzzle. Check out the original post on the Jane Street website.
+The Puzzle A six-sided die, with numbers written on each of its faces, is placed on the 6-by-6 grid above, in the lower-left (yellow) corner. It then makes a sequence of “moves”. Each move consists of tipping the die into an orthogonally adjacent square within the grid.
+The die starts with a “score” of 0.</description>
+    </item>
+    
     <item>
       <title>Pent-up Frustration 2</title>
       <link>https://zorzi.dev/posts/jane_street/jane_2022_11/</link>
