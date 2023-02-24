@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>bash on zorzi.dev</title>
+    <link>https://zorzi.dev/tags/bash/</link>
+    <description>Recent content in bash on zorzi.dev</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 24 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zorzi.dev/tags/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>repo zipper</title>
+      <link>https://zorzi.dev/posts/repo_zipper/</link>
+      <pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://zorzi.dev/posts/repo_zipper/</guid>
+      <description>Have you ever needed to zip a git repository?
+Well, this is fairly simple with git
+git archive --format zip --output &amp;lt;output_path&amp;gt; HEAD But what about if you need to zip multiple repositories at once? This might get tedious.
+Bash scripting to the rescue Worry no more!
+Create a repoZipper.sh file with the following content
+#!/bin/bash # Set the name of the output archive file OUTPUT_ARCHIVE=&amp;#34;repos.zip&amp;#34; # Create a temporary directory to store the cloned repositories TEMP_DIR=$(mktemp -d) echo &amp;#34;Working temporary directory: ${TEMP_DIR}&amp;#34; # Loop through each repository URL passed as input while read -r REPO_URL do # Extract the repository name from the URL REPO_NAME=$(echo &amp;#34;${REPO_URL}&amp;#34; | cut -d&amp;#39;/&amp;#39; -f2) # Clone the repository git clone &amp;#34;${REPO_URL}&amp;#34; &amp;#34;${TEMP_DIR}/${REPO_NAME}&amp;#34; # Create a zip archive of the repository pushd &amp;#34;${TEMP_DIR}/${REPO_NAME}&amp;#34; || exit git archive --format=zip --output=&amp;#34;${TEMP_DIR}/${REPO_NAME}.</description>
+    </item>
+    
+  </channel>
+</rss>
