@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>jane street on zorzi.dev</title>
+    <title>Jane Street on zorzi.dev</title>
     <link>https://zorzi.dev/tags/jane-street/</link>
-    <description>Recent content in jane street on zorzi.dev</description>
+    <description>Recent content in Jane Street on zorzi.dev</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 01 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://zorzi.dev/tags/jane-street/index.xml" rel="self" type="application/rss+xml" />
