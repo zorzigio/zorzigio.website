@@ -13,9 +13,20 @@
       <pubDate>Sun, 01 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://zorzi.dev/posts/jane_street/jane_2022_12/</guid>
-      <description>Introduction This is the solution for the December 2022&amp;rsquo;s Jane Street puzzle. Check out the original post on the Jane Street website.
-The Puzzle A six-sided die, with numbers written on each of its faces, is placed on the 6-by-6 grid above, in the lower-left (yellow) corner. It then makes a sequence of “moves”. Each move consists of tipping the die into an orthogonally adjacent square within the grid.
-The die starts with a “score” of 0.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is the solution for the December 2022&amp;rsquo;s Jane Street puzzle.
+Check out the original post on the 
+&lt;a
+    href=&#34;https://www.janestreet.com/puzzles/die-agony-index/&#34;
+    
+     target=&#34;_blank&#34;
+&gt;Jane Street website&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;the-puzzle&#34;&gt;The Puzzle&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;images/board.svg&#34; alt=&#34;Board&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;A six-sided die, with numbers written on each of its faces, is placed on the 6-by-6 grid above, in the lower-left (yellow) corner.
+It then makes a sequence of “moves”.
+Each move consists of tipping the die into an orthogonally adjacent square within the grid.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -24,9 +35,17 @@ The die starts with a “score” of 0.</description>
       <pubDate>Thu, 01 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://zorzi.dev/posts/jane_street/jane_2022_11/</guid>
-      <description>Introduction This is the solution of the November&amp;rsquo;s Jane Street puzzle. It involves pentagons, patience and a lot of computation. Check out the original post on the Jane Street website.
-The Puzzle The scope of this puzzle is to find the minimum distance between two pentagons arranged in a polyform.
-You have seventeen identical unit regular pentagonal tiles on a tabletop. You arrange them all into a single polyform, so each pentagon placed after the first shares a side with an already-placed pentagon, but no two pentagons overlap other than along their boundaries.</description>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;This is the solution of the November&amp;rsquo;s Jane Street puzzle.
+It involves pentagons, patience and a lot of computation.
+Check out the original post on the 
+&lt;a
+    href=&#34;https://www.janestreet.com/puzzles/pent-up-frustration-2-index/&#34;
+    
+     target=&#34;_blank&#34;
+&gt;Jane Street website&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;the-puzzle&#34;&gt;The Puzzle&lt;/h2&gt;
+&lt;p&gt;The scope of this puzzle is to find the minimum distance between two pentagons arranged in a polyform.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -35,9 +54,15 @@ You have seventeen identical unit regular pentagonal tiles on a tabletop. You ar
       <pubDate>Tue, 01 Nov 2022 00:00:00 +0000</pubDate>
       
       <guid>https://zorzi.dev/posts/jane_street/puzzles/</guid>
-      <description>I recently discovered the website Jane Street. They are a quantitative trading firm that hires people with a strong mathematical background. They also publish monthly challenges in the form of puzzles. If you solve the puzzle, you can submit your solution and if correct, they will publish your name on the puzzle&amp;rsquo;s page.
-The first one I tackled was Pent-up Frustration 2.
-I also publish the code on GitHub (once the solution is out).</description>
+      <description>&lt;p&gt;I recently discovered the website 
+&lt;a
+    href=&#34;https://www.janestreet.com/puzzles/current-puzzle/&#34;
+    
+     target=&#34;_blank&#34;
+&gt;Jane Street&lt;/a&gt;.
+They are a quantitative trading firm that hires people with a strong mathematical background.
+They also publish monthly challenges in the form of puzzles.
+If you solve the puzzle, you can submit your solution and if correct, they will publish your name on the puzzle&amp;rsquo;s page.&lt;/p&gt;</description>
     </item>
     
   </channel>
