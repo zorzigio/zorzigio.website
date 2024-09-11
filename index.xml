@@ -55,7 +55,7 @@ This might get tedious.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;# Remove the temporary directory&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;rm -rf &lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;${&lt;/span&gt;&lt;span class=&#34;nv&#34;&gt;TEMP_DIR&lt;/span&gt;&lt;span class=&#34;si&#34;&gt;}&lt;/span&gt;&lt;span class=&#34;s2&#34;&gt;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pr</description>
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Then create a file &lt;code&gt;repos.txt&lt;/code&gt; with the list of repositories to zip&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -96,7 +96,10 @@ Check out the original post on the
      target=&#34;_blank&#34;
 &gt;Jane Street website&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;the-puzzle&#34;&gt;The Puzzle&lt;/h2&gt;
-&lt;p&gt;The scope of this puzzle is to find the minimum distance between two pentagons arranged in a polyform.&lt;/p&gt;</description>
+&lt;p&gt;The scope of this puzzle is to find the minimum distance between two pentagons arranged in a polyform.&lt;/p&gt;
+&lt;p&gt;You have seventeen identical unit regular pentagonal tiles on a tabletop.
+You arrange them all into a single polyform, so each pentagon placed after the first shares a side with an already-placed pentagon, but no two pentagons overlap other than along their boundaries.
+What is the smallest nonzero distance you can create between two of the pentagons?&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -113,7 +116,19 @@ Check out the original post on the
 &gt;Jane Street&lt;/a&gt;.
 They are a quantitative trading firm that hires people with a strong mathematical background.
 They also publish monthly challenges in the form of puzzles.
-If you solve the puzzle, you can submit your solution and if correct, they will publish your name on the puzzle&amp;rsquo;s page.&lt;/p&gt;</description>
+If you solve the puzzle, you can submit your solution and if correct, they will publish your name on the puzzle&amp;rsquo;s page.&lt;/p&gt;
+&lt;p&gt;The first one I tackled was 
+&lt;a
+    href=&#34;https://zorzi.dev/posts/jane_street/jane_2022_11/&#34;
+     title=&#34;Pent-up Frustration 2&#34;
+    
+&gt;Pent-up Frustration 2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I also publish the code on 
+&lt;a
+    href=&#34;https://github.com/zorzigio/jane_street_puzzles&#34;
+    
+     target=&#34;_blank&#34;
+&gt;GitHub&lt;/a&gt; (once the solution is out).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -158,7 +173,22 @@ Check out
     href=&#34;https://github.com/adityatelange/hugo-PaperMod&#34;
     
      target=&#34;_blank&#34;
-&gt;PaperMod&lt;/a&gt; but I heavily modified it to fit my needs.&lt;/p&gt;</description>
+&gt;PaperMod&lt;/a&gt; but I heavily modified it to fit my needs.&lt;/p&gt;
+&lt;h2 id=&#34;link-checker&#34;&gt;Link Checker&lt;/h2&gt;
+&lt;p&gt;To make sure all the links are working, I use 
+&lt;a
+    href=&#34;https://github.com/victoriadrake/hydra-link-checker&#34;
+    
+     target=&#34;_blank&#34;
+&gt;hydra&lt;/a&gt;.
+This runs as a Github Action and scrapes the website for broken links.&lt;/p&gt;
+&lt;h2 id=&#34;source-code&#34;&gt;Source Code&lt;/h2&gt;
+&lt;p&gt;You can take a look at the source code on 
+&lt;a
+    href=&#34;https://github.com/zorzigio/zorzigio.github.io&#34;
+    
+     target=&#34;_blank&#34;
+&gt;GitHub&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     
     <item>

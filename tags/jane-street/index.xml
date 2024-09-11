@@ -45,7 +45,10 @@ Check out the original post on the
      target=&#34;_blank&#34;
 &gt;Jane Street website&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;the-puzzle&#34;&gt;The Puzzle&lt;/h2&gt;
-&lt;p&gt;The scope of this puzzle is to find the minimum distance between two pentagons arranged in a polyform.&lt;/p&gt;</description>
+&lt;p&gt;The scope of this puzzle is to find the minimum distance between two pentagons arranged in a polyform.&lt;/p&gt;
+&lt;p&gt;You have seventeen identical unit regular pentagonal tiles on a tabletop.
+You arrange them all into a single polyform, so each pentagon placed after the first shares a side with an already-placed pentagon, but no two pentagons overlap other than along their boundaries.
+What is the smallest nonzero distance you can create between two of the pentagons?&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -62,7 +65,19 @@ Check out the original post on the
 &gt;Jane Street&lt;/a&gt;.
 They are a quantitative trading firm that hires people with a strong mathematical background.
 They also publish monthly challenges in the form of puzzles.
-If you solve the puzzle, you can submit your solution and if correct, they will publish your name on the puzzle&amp;rsquo;s page.&lt;/p&gt;</description>
+If you solve the puzzle, you can submit your solution and if correct, they will publish your name on the puzzle&amp;rsquo;s page.&lt;/p&gt;
+&lt;p&gt;The first one I tackled was 
+&lt;a
+    href=&#34;https://zorzi.dev/posts/jane_street/jane_2022_11/&#34;
+     title=&#34;Pent-up Frustration 2&#34;
+    
+&gt;Pent-up Frustration 2&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I also publish the code on 
+&lt;a
+    href=&#34;https://github.com/zorzigio/jane_street_puzzles&#34;
+    
+     target=&#34;_blank&#34;
+&gt;GitHub&lt;/a&gt; (once the solution is out).&lt;/p&gt;</description>
     </item>
     
   </channel>

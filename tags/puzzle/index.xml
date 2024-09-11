@@ -45,7 +45,10 @@ Check out the original post on the
      target=&#34;_blank&#34;
 &gt;Jane Street website&lt;/a&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;the-puzzle&#34;&gt;The Puzzle&lt;/h2&gt;
-&lt;p&gt;The scope of this puzzle is to find the minimum distance between two pentagons arranged in a polyform.&lt;/p&gt;</description>
+&lt;p&gt;The scope of this puzzle is to find the minimum distance between two pentagons arranged in a polyform.&lt;/p&gt;
+&lt;p&gt;You have seventeen identical unit regular pentagonal tiles on a tabletop.
+You arrange them all into a single polyform, so each pentagon placed after the first shares a side with an already-placed pentagon, but no two pentagons overlap other than along their boundaries.
+What is the smallest nonzero distance you can create between two of the pentagons?&lt;/p&gt;</description>
     </item>
     
   </channel>
